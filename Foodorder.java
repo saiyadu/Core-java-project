@@ -34,9 +34,7 @@ public class Foodorder {
 	private JTextField pname;
 	private JTextField mname;
 
-	/**
-	 * Launch the application.
-	 */
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -50,9 +48,6 @@ public class Foodorder {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
 	public Foodorder() {
 		initialize();
 		Connect();
@@ -97,9 +92,6 @@ public class Foodorder {
     }
 
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
 	private void initialize() {
 		frame = new JFrame();
 		frame.getContentPane().setForeground(new Color(255, 255, 255));
@@ -300,12 +292,7 @@ public class Foodorder {
 					e1.printStackTrace();
 					}
 				
-				
-				
-				
-				
-				
-				
+			
 			}
 		});
 		btnUpdate.setBounds(483, 375, 89, 44);
@@ -337,13 +324,7 @@ public class Foodorder {
 						e1.printStackTrace();
 						}
 					
-				
-				
-				
-				
-				
-				
-				
+			
 			}
 		});
 		btnDelete.setBounds(613, 375, 89, 44);
